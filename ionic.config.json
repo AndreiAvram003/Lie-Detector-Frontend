@@ -1,0 +1,7 @@
+{
+  "name": "Lie-Detector-Frontend",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
