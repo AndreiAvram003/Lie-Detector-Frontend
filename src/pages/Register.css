@@ -1,0 +1,25 @@
+.login-container {
+    max-width: 400px;
+    width: 90%;
+    background: #fff;
+    padding: 2rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 12px;
+}
+
+.login-title {
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+ion-input {
+    margin: 0.8rem 0;
+    padding: 0.5rem;
+    border-radius: 8px;
+    background: var(--background-light);
+}
+
+ion-button {
+    margin-top: 1rem;
+}

@@ -1,0 +1,27 @@
+/* src/components/Header.css */
+.app-header ion-toolbar {
+  --background: var(--ion-color-primary, #387ef5); /* Fundal albastru modern */
+  --color: var(--ion-color-primary-contrast, #ffffff); /* Text alb pe fundal primar */
+  --min-height: 60px;
+  padding: 0 10px; /* Adaugă puțin padding orizontal */
+}
+
+.header-logo-container {
+  display: flex;
+  justify-content: center; /* Centrează logo-ul */
+  align-items: center;
+  height: 100%;
+}
+
+.header-logo {
+  height: 40px; /* Dimensiune ajustată pentru logo */
+  width: auto;
+  margin: 5px 0; /* Elimină margin:auto original */
+}
+
+/* Media query pentru ecrane mai mici, dacă e nevoie de ajustări specifice */
+@media (max-width: 600px) {
+  .header-logo {
+    height: 35px;
+  }
+}
